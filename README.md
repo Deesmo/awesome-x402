@@ -577,6 +577,8 @@ Projects building with or extending x402.
 - **[x402-api](https://x402-api.fly.dev)** — Pay-per-call DeFi & crypto data API. 8 endpoints: price feeds, whale tracking, gas tracker, DEX quotes, token scanner, yield scanner, funding rates, wallet profiler. USDC micropayments on Base. ERC-8004 Agent #18763.
 - [DeFi Intelligence API](https://defi.hugen.tokyo) — Unified DeFi security, bridging, and analytics API for AI agents. 26 endpoints across three backends: GoPlus Security (token/address/NFT security, rugpull detection, phishing, tx simulation), LI.FI (cross-chain bridge quotes, routes, gas prices), and DeFi Llama (protocol TVL, fees, token prices, stablecoin data, DEX volumes). $0.005–$0.01 USDC on Base. Discovery: [/.well-known/x402](https://defi.hugen.tokyo/.well-known/x402)
 
+- [Arch Tools](https://archtools.dev) — Unified API platform with 61 production tools (AI, crypto, web scraping, code generation, OCR, email verification, and more) where AI agents pay per-call with USDC via x402. Multi-chain: Base, Polygon, Avalanche, Solana. MCP-compatible (SSE + Streamable HTTP). Also supports Stripe credit packs and BYOK mode. ([OpenAPI](https://archtools.dev/openapi.json)) | ([x402 Discovery](https://archtools.dev/.well-known/x402)) | ([MCP](https://arch-tools-mcp.onrender.com/sse))
+
 ### Developer Tools
 
 - NEAR AI - Cross-chain agent settlements.
